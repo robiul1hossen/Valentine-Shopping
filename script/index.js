@@ -60,9 +60,9 @@ function eventListener(id, link) {
     window.open(link);
   });
 }
-eventListener("product1", "http://192.168.0.103:5500/product1.html");
-eventListener("product2", "http://192.168.0.103:5500/product2.html");
-eventListener("product3", "http://192.168.0.103:5500/product-3.html");
-eventListener("product4", "http://192.168.0.103:5500/product4.html");
-eventListener("product5", "http://192.168.0.103:5500/product5.html");
-eventListener("product6", "http://192.168.0.103:5500/product6.html");
+eventListener("product1", "./product1.html");
+eventListener("product2", "./product2.html");
+eventListener("product3", "./product-3.html");
+eventListener("product4", "./product4.html");
+eventListener("product5", "./product5.html");
+eventListener("product6", "./product6.html");
